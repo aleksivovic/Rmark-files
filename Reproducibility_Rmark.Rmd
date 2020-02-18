@@ -1,0 +1,113 @@
+---
+title: "Reproducibility in R"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+  word_document:
+    toc: yes
+    toc_depth: '2'
+---
+
+# Introduction {#Introduction}
+This is an introduction to reproducibility in R.
+
+## Starting with RStudio
+Information about RStudio
+Opening R Studio
+
+You can add **bold text** or __bold text__
+You can add *italic text* or _italic text with underscores_
+
+Adding superscript ^is^ not so easy
+Adding subscript using ~tilde~
+
+If you add inline code use the backtick `to write code`
+
+We have covered this in the [Introduction section](#Introduction).
+You can also create [links to Google](https://www.google.com) for example.
+But you might have some link to the footnote [^1].
+
+[^1]: This is my first footnote.
+
+## Lists
+Ordered lists take numbers
+
+1. Item A
+2. Item B
+3. Item C
+    a. Sublist 1 #indented with 4 spaces
+    b. Sublist 2
+    
+You also have unordered lists:
+
+ - Item A
+ - Item B
+ 
+ Tasks - if uploaded to github will create tickboxes (doesn't show up in html)
+ - [ ]
+ - [x]
+ 
+ Linking an image
+ 
+ ![My image is a cow](https://static.independent.co.uk/s3fs-public/thumbnails/image/2019/03/13/11/tariffs-4.jpg?w968)
+ Can also copy local image location
+ 
+## Tables
+ 
+ You can create tables using | -
+ 
+ | Column header | Another column |
+ | ------------- | -------------- |
+ | First row     | With info      |
+ | More rows     | With more info |
+ 
+ 
+ > A greater than sign creates blocks
+ 
+ How does that look?
+ How would we highlight code?
+ 
+ Single `backticks` are used inline to highlight 
+ 
+ To write a block of code start with three backticks (this does not get executed):
+ 
+ ```
+ print("hello")
+ read.csv("data.txt")
+ ```
+ 
+ Can also do this by Code > Insert Chunk or by Ctrl-Alt-I (this does get executed):
+```{r}
+ print("hello")
+75 * 8
+```
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
